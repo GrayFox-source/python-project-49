@@ -10,4 +10,5 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GrayFox-source_python-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=GrayFox-source_python-project-49)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=GrayFox-source_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=GrayFox-source_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GrayFox-source_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=GrayFox-source_python-project-49)
-Демонстрация: [`asciicast`](https://asciinema.org/a/qriWVGRAPILYrdEO)
+Демонстрация brain-even: [`brain-even`](https://asciinema.org/a/qriWVGRAPILYrdEO)
+Демострация brain-calc: [`brain-calc`](https://asciinema.org/a/WlDY8svdhlOO9aiz)
