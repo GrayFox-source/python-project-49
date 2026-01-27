@@ -7,7 +7,7 @@ def random_generator(a=1, b=50):
     return randint(a, b)
 
 
-def get_question_answer():
+def get_qa():
     a, b = random_generator(), random_generator()
     available_signs = ['+', '-', '*']
     question_sign = available_signs[randint(0, len(available_signs) - 1)]
@@ -24,7 +24,7 @@ def get_question_answer():
 def start_calc_game(name: str):
     description = 'What is the result of the expression?'
     success, correct_answer, given_answer = start_games(description,
-                                                        get_question_answer)
+                                                        get_qa)
 
     if success:
         print(f"Congratulations, {name}!")

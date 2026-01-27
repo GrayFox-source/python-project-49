@@ -1,10 +1,10 @@
 from brain_games.cli import welcome_user
-from brain_games.games.even_or_odd_game_logic import start_odd_or_even_game
+from brain_games.games.brain_gcd_game_logic import start_gcd_game
 
 
 def main():
     name = welcome_user()
-    start_odd_or_even_game(name)
+    start_gcd_game(name)
 
 
 if __name__ == '__main__':

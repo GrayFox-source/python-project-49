@@ -10,6 +10,9 @@ brain-calc:
 brain-even:
 	uv run brain-even
 
+brain-gcd:
+	uv run brain-gcd
+
 build:
 	uv build
 
