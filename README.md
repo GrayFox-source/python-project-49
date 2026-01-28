@@ -10,6 +10,16 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GrayFox-source_python-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=GrayFox-source_python-project-49)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=GrayFox-source_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=GrayFox-source_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GrayFox-source_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=GrayFox-source_python-project-49)
+
+<h1>Проект "Игры разума".</h1>
+
+<h3>Проект состоит из 5 игр, демонстрацию которых можно увидеть, кликнув по гиперссылкам ниже.</h3>
+
+<h4>Чтобы установить пакет игр, необходимо выполнить команду:
+make build, затем make package-install</h4>
+
+<h4>Для запуска игр используйте команды (brain-even, bran-calc, brain-gcd, brain-progression, brain-prime)</h4>
+
 Демонстрация brain-even: [`brain-even`](https://asciinema.org/a/qriWVGRAPILYrdEO)
 Демострация brain-calc: [`brain-calc`](https://asciinema.org/a/WlDY8svdhlOO9aiz)
 Демонстрация brain-gcd: [`brain-gcd`](https://asciinema.org/a/xL2w7bYeqM6rkT8W)
