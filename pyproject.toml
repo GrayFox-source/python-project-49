@@ -1,6 +1,6 @@
 [project]
 name = "hexlet-code"
-version = "<0.1.6"
+version = "0.1.1"
 description = "This is a Brain Games project, that contains a 5 diffirent games to play."
 authors = 'Gray-Fox'
 readme = "README.md"
