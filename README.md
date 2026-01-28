@@ -13,4 +13,5 @@
 Демонстрация brain-even: [`brain-even`](https://asciinema.org/a/qriWVGRAPILYrdEO)
 Демострация brain-calc: [`brain-calc`](https://asciinema.org/a/WlDY8svdhlOO9aiz)
 Демонстрация brain-gcd: [`brain-gcd`](https://asciinema.org/a/xL2w7bYeqM6rkT8W)
-Демонстрация brain-progression: [`brain-progression`](https://asciinema.org/a/1odgzA1I9rsdMC3x) 
+Демонстрация brain-progression: [`brain-progression`](https://asciinema.org/a/1odgzA1I9rsdMC3x)
+Демонстрация brain-prime: [`brain-prime`](https://asciinema.org/a/ZTXJyWDe1K3Q9P1g) 
