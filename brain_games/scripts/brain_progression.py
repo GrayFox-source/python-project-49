@@ -1,5 +1,7 @@
 from brain_games.cli import welcome_user
-from brain_games.games.brain_progression_game_logic import start_progression_game
+from brain_games.games.brain_progression_game_logic import (
+    start_progression_game,
+)
 
 
 def main():

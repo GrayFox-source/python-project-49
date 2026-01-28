@@ -27,7 +27,8 @@ def get_qa():
 
 
 def start_prime_game(name: str):
-    description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    description = ('Answer "yes" if given number is prime.'
+                   ' Otherwise answer "no".')
     success, correct_answer, given_answer = start_games(
         description, get_qa
     )
@@ -35,5 +36,6 @@ def start_prime_game(name: str):
     if success:
         print(f"Congratulations, {name}!")
     else:
-        print(f"'{given_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        print(f"'{given_answer}' is wrong answer ;(."
+              f" Correct answer was '{correct_answer}'.")
         print(f"Let's try again, {name}!")

@@ -14,9 +14,12 @@ def get_qa():
     question = f'{a} {question_sign} {b}'
 
     match question_sign:
-        case '*': correct_answer = a * b
-        case '+': correct_answer = a + b
-        case '-': correct_answer = a - b
+        case '*':
+            correct_answer = a * b
+        case '+':
+            correct_answer = a + b
+        case '-':
+            correct_answer = a - b
 
     return question, str(correct_answer)
 
@@ -29,5 +32,6 @@ def start_calc_game(name: str):
     if success:
         print(f"Congratulations, {name}!")
     else:
-        print(f"'{given_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        print(f"'{given_answer}' is wrong answer ;(."
+              f" Correct answer was '{correct_answer}'.")
         print(f"Let's try again, {name}!")

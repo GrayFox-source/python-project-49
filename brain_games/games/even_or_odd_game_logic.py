@@ -21,5 +21,6 @@ def start_odd_or_even_game(name: str):
     if success:
         print(f"Congratulations, {name}!")
     else:
-        print(f"'{given_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+        print(f"'{given_answer}' is wrong answer ;(."
+              f" Correct answer was '{correct_answer}'.")
         print(f"Let's try again, {name}!")
