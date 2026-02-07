@@ -16,7 +16,7 @@ print(gcd(3, 15))
 
 
 def get_qa():
-    first, second = randint(1, 100), randint(1, 100) #NOSONAR
+    first, second = randint(1, 100), randint(1, 100)
     question = f'{first} {second}'
     correct_answer = str(gcd(first, second))
     return question, correct_answer

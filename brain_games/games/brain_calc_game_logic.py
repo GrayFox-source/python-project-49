@@ -4,13 +4,13 @@ from brain_games.games.general_games_engine import start_games
 
 
 def random_generator(a=1, b=50):
-    return randint(a, b) #NOSONAR
+    return randint(a, b)
 
 
 def get_qa():
     a, b = random_generator(), random_generator()
     available_signs = ['+', '-', '*']
-    question_sign = available_signs[randint(0, len(available_signs) - 1)] #NOSONAR
+    question_sign = available_signs[randint(0, len(available_signs) - 1)]
     question = f'{a} {question_sign} {b}'
 
     match question_sign:
