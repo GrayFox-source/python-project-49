@@ -10,7 +10,7 @@ def random_generator(a=1, b=50):
 def get_qa():
     a, b = random_generator(), random_generator()
     available_signs = ['+', '-', '*']
-    question_sign = available_signs[randint(0, len(available_signs) - 1)]
+    question_sign = available_signs[randint(0, len(available_signs) - 1)] #NOSONAR
     question = f'{a} {question_sign} {b}'
 
     match question_sign:

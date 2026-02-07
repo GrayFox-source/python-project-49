@@ -15,7 +15,7 @@ def create_progression():
 
 def get_qa():
     question = create_progression()
-    current_answer_index = randint(0, len(question) - 1)
+    current_answer_index = randint(0, len(question) - 1) #NOSONAR
     current_answer = question[current_answer_index]
     question[current_answer_index] = '..'
     return ' '.join(map(str, question)), str(current_answer)
