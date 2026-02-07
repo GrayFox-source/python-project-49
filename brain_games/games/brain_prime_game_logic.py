@@ -21,7 +21,7 @@ def is_prime(n):
 
 
 def get_qa():
-    question = randint(1, 100)
+    question = randint(1, 100) #NOSONAR
     answer = 'yes' if is_prime(question) else 'no'
     return question, answer
 

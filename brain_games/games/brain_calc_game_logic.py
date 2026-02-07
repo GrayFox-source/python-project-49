@@ -4,7 +4,7 @@ from brain_games.games.general_games_engine import start_games
 
 
 def random_generator(a=1, b=50):
-    return randint(a, b)
+    return randint(a, b) #NOSONAR
 
 
 def get_qa():

@@ -5,9 +5,9 @@ from brain_games.games.general_games_engine import start_games
 
 def create_progression():
     result_progression = []
-    step_progression = randint(1, 10)
-    start_progression = randint(1, 10)
-    for i in range(1, randint(6, 11)):
+    step_progression = randint(1, 10) #NOSONAR
+    start_progression = randint(1, 10) #NOSONAR
+    for i in range(1, randint(6, 11)): #NOSONAR
         result_progression.append(start_progression + i * step_progression)
 
     return result_progression

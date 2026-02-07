@@ -8,7 +8,7 @@ def is_even(num: int) -> bool:
 
 
 def get_qa():
-    question = randint(1, 100)
+    question = randint(1, 100) #NOSONAR
     correct_answer = 'yes' if is_even(question) else 'no'
     return question, correct_answer
 
